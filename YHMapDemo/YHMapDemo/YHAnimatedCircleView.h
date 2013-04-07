@@ -16,9 +16,8 @@
 
 #import <MapKit/MapKit.h>
 
-@interface YHAnimatedCircleView : MKCircleView{
-    
-    UIImageView* imageView;
+@interface YHAnimatedCircleView : MKCircleView {
+    UIView* explorationRadiusView;
 }
 
 -(void)start;

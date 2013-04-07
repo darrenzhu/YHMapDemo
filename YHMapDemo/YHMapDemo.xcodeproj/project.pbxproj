@@ -18,7 +18,6 @@
 		0B04BB3E152B69080058F4FF /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB3D152B69080058F4FF /* MapKit.framework */; };
 		0B04BB40152B690D0058F4FF /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0B04BB3F152B690D0058F4FF /* QuartzCore.framework */; };
 		0B04BB45152B695E0058F4FF /* NOTICE.TXT in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB41152B695E0058F4FF /* NOTICE.TXT */; };
-		0B04BB46152B695E0058F4FF /* redCircle.png in Resources */ = {isa = PBXBuildFile; fileRef = 0B04BB42152B695E0058F4FF /* redCircle.png */; };
 		0B04BB47152B695E0058F4FF /* YHAnimatedCircleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */; };
 /* End PBXBuildFile section */
 
@@ -39,7 +38,6 @@
 		0B04BB3D152B69080058F4FF /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
 		0B04BB3F152B690D0058F4FF /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		0B04BB41152B695E0058F4FF /* NOTICE.TXT */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = NOTICE.TXT; sourceTree = "<group>"; };
-		0B04BB42152B695E0058F4FF /* redCircle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = redCircle.png; sourceTree = "<group>"; };
 		0B04BB43152B695E0058F4FF /* YHAnimatedCircleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YHAnimatedCircleView.h; sourceTree = "<group>"; };
 		0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YHAnimatedCircleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -100,7 +98,6 @@
 				0B04BB43152B695E0058F4FF /* YHAnimatedCircleView.h */,
 				0B04BB44152B695E0058F4FF /* YHAnimatedCircleView.m */,
 				0B04BB41152B695E0058F4FF /* NOTICE.TXT */,
-				0B04BB42152B695E0058F4FF /* redCircle.png */,
 				0B04BB27152B68E20058F4FF /* Supporting Files */,
 			);
 			path = YHMapDemo;
@@ -170,7 +167,6 @@
 				0B04BB2B152B68E20058F4FF /* InfoPlist.strings in Resources */,
 				0B04BB37152B68E20058F4FF /* ViewController.xib in Resources */,
 				0B04BB45152B695E0058F4FF /* NOTICE.TXT in Resources */,
-				0B04BB46152B695E0058F4FF /* redCircle.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,6 +290,7 @@
 				0B04BB3C152B68E20058F4FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
