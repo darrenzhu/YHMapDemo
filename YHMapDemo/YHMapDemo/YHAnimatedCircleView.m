@@ -34,6 +34,22 @@
     self = [super initWithCircle:circle];
     
     if (self) {
+        
+        [self removeExistingAnimation];
+        
+        explorationRadiusView = [[UIView alloc] initWithFrame:CGRectMake(0,0,0,0)];
+        
+        circleLayer = [CAShapeLayer layer];
+        
+        // Configure the apperence of the circle
+        circleLayer.fillColor = [UIColor blueColor].CGColor;
+        circleLayer.strokeColor = [UIColor blackColor].CGColor;
+        circleLayer.lineWidth = 50;
+        
+        [explorationRadiusView.layer addSublayer:circleLayer];
+        
+        [self addSubview:explorationRadiusView];
+        
         [self start];
     }
     
@@ -47,21 +63,6 @@
 
 - (void)start
 {
-    [self removeExistingAnimation];
-    
-    explorationRadiusView = [[UIView alloc] initWithFrame:CGRectMake(0,0,0,0)];
-    
-    circleLayer = [CAShapeLayer layer];
-    
-    // Configure the apperence of the circle
-    circleLayer.fillColor = [UIColor blueColor].CGColor;
-    circleLayer.strokeColor = [UIColor blackColor].CGColor;
-    circleLayer.lineWidth = 50;
-    
-    [explorationRadiusView.layer addSublayer:circleLayer];
-    
-    [self addSubview:explorationRadiusView];
-    
     //opacity animation setup
     CABasicAnimation *opacityAnimation;
     
