@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/yickhong/YHMapDemo"
   s.license      = 'MIT'
   s.author       = { "Bradley Campbell" => "grandstaish@gmail.com" }
-  s.source       = { :git => "https://github.com/grandstaish/YHMapDemo.git", commit: "df689820c1854b35ca8de9c3d635bd39a2b1bf0f" }
+  s.source       = { :git => "https://github.com/grandstaish/YHMapDemo.git", commit: "a8f4bba17bfc8e588e125f9add21cd75969dff3e" }
   s.platform     = :ios, '5.0'
   s.source_files = 'YHMapDemo/YHMapDemo/YHAnimatedCircleView.{h,m}'
   s.exclude_files = 'Classes/Exclude'
