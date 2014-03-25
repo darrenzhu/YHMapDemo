@@ -42,9 +42,9 @@
         circleLayer = [CAShapeLayer layer];
         
         // Configure the apperence of the circle
-        circleLayer.fillColor = [UIColor blueColor].CGColor;
-        circleLayer.strokeColor = [UIColor blackColor].CGColor;
-        circleLayer.lineWidth = 50;
+        circleLayer.fillColor = [UIColor lightGrayColor].CGColor;
+        circleLayer.strokeColor = [UIColor lightGrayColor].CGColor;
+        circleLayer.lineWidth = 10;
         
         [explorationRadiusView.layer addSublayer:circleLayer];
         
